@@ -10,13 +10,27 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Spacer()
+            Image(systemName: "plus")
+                .foregroundStyle(.blue)
+                .padding()
+                .onTapGesture {
+                    openPostSheet()
+                }
+               
+            
         }
         .padding()
     }
+}
+
+
+func openPostSheet(){
+    
+    print("Plus tapped!")
+    
+    
+    
 }
 
 #Preview {

@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		30FFA9102DBE8B7100A22807 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30FFA8FA2DBE8B7100A22807 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30FFA9012DBE8B7100A22807;
+			remoteInfo = "Social Post Form";
+		};
+		30FFA91A2DBE8B7200A22807 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30FFA8FA2DBE8B7100A22807 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30FFA9012DBE8B7100A22807;
+			remoteInfo = "Social Post Form";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30FFA9022DBE8B7100A22807 /* Social Post Form.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social Post Form.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30FFA90F2DBE8B7100A22807 /* Social Post FormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Social Post FormTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30FFA9192DBE8B7200A22807 /* Social Post FormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Social Post FormUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		30FFA9042DBE8B7100A22807 /* Social Post Form */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Social Post Form";
+			sourceTree = "<group>";
+		};
+		30FFA9122DBE8B7100A22807 /* Social Post FormTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Social Post FormTests";
+			sourceTree = "<group>";
+		};
+		30FFA91C2DBE8B7200A22807 /* Social Post FormUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Social Post FormUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30FFA8FF2DBE8B7100A22807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FFA90C2DBE8B7100A22807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FFA9162DBE8B7200A22807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30FFA8F92DBE8B7100A22807 = {
+			isa = PBXGroup;
+			children = (
+				30FFA9042DBE8B7100A22807 /* Social Post Form */,
+				30FFA9122DBE8B7100A22807 /* Social Post FormTests */,
+				30FFA91C2DBE8B7200A22807 /* Social Post FormUITests */,
+				30FFA9032DBE8B7100A22807 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30FFA9032DBE8B7100A22807 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30FFA9022DBE8B7100A22807 /* Social Post Form.app */,
+				30FFA90F2DBE8B7100A22807 /* Social Post FormTests.xctest */,
+				30FFA9192DBE8B7200A22807 /* Social Post FormUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30FFA9012DBE8B7100A22807 /* Social Post Form */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30FFA9232DBE8B7200A22807 /* Build configuration list for PBXNativeTarget "Social Post Form" */;
+			buildPhases = (
+				30FFA8FE2DBE8B7100A22807 /* Sources */,
+				30FFA8FF2DBE8B7100A22807 /* Frameworks */,
+				30FFA9002DBE8B7100A22807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				30FFA9042DBE8B7100A22807 /* Social Post Form */,
+			);
+			name = "Social Post Form";
+			packageProductDependencies = (
+			);
+			productName = "Social Post Form";
+			productReference = 30FFA9022DBE8B7100A22807 /* Social Post Form.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30FFA90E2DBE8B7100A22807 /* Social Post FormTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30FFA9262DBE8B7200A22807 /* Build configuration list for PBXNativeTarget "Social Post FormTests" */;
+			buildPhases = (
+				30FFA90B2DBE8B7100A22807 /* Sources */,
+				30FFA90C2DBE8B7100A22807 /* Frameworks */,
+				30FFA90D2DBE8B7100A22807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30FFA9112DBE8B7100A22807 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				30FFA9122DBE8B7100A22807 /* Social Post FormTests */,
+			);
+			name = "Social Post FormTests";
+			packageProductDependencies = (
+			);
+			productName = "Social Post FormTests";
+			productReference = 30FFA90F2DBE8B7100A22807 /* Social Post FormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30FFA9182DBE8B7200A22807 /* Social Post FormUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30FFA9292DBE8B7200A22807 /* Build configuration list for PBXNativeTarget "Social Post FormUITests" */;
+			buildPhases = (
+				30FFA9152DBE8B7200A22807 /* Sources */,
+				30FFA9162DBE8B7200A22807 /* Frameworks */,
+				30FFA9172DBE8B7200A22807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30FFA91B2DBE8B7200A22807 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				30FFA91C2DBE8B7200A22807 /* Social Post FormUITests */,
+			);
+			name = "Social Post FormUITests";
+			packageProductDependencies = (
+			);
+			productName = "Social Post FormUITests";
+			productReference = 30FFA9192DBE8B7200A22807 /* Social Post FormUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30FFA8FA2DBE8B7100A22807 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					30FFA9012DBE8B7100A22807 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					30FFA90E2DBE8B7100A22807 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 30FFA9012DBE8B7100A22807;
+					};
+					30FFA9182DBE8B7200A22807 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 30FFA9012DBE8B7100A22807;
+					};
+				};
+			};
+			buildConfigurationList = 30FFA8FD2DBE8B7100A22807 /* Build configuration list for PBXProject "Social Post Form" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30FFA8F92DBE8B7100A22807;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 30FFA9032DBE8B7100A22807 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30FFA9012DBE8B7100A22807 /* Social Post Form */,
+				30FFA90E2DBE8B7100A22807 /* Social Post FormTests */,
+				30FFA9182DBE8B7200A22807 /* Social Post FormUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30FFA9002DBE8B7100A22807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FFA90D2DBE8B7100A22807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FFA9172DBE8B7200A22807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30FFA8FE2DBE8B7100A22807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FFA90B2DBE8B7100A22807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FFA9152DBE8B7200A22807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30FFA9112DBE8B7100A22807 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30FFA9012DBE8B7100A22807 /* Social Post Form */;
+			targetProxy = 30FFA9102DBE8B7100A22807 /* PBXContainerItemProxy */;
+		};
+		30FFA91B2DBE8B7200A22807 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30FFA9012DBE8B7100A22807 /* Social Post Form */;
+			targetProxy = 30FFA91A2DBE8B7200A22807 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30FFA9212DBE8B7200A22807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 56F7L6935Z;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30FFA9222DBE8B7200A22807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 56F7L6935Z;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30FFA9242DBE8B7200A22807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56F7L6935Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.yokobuto.Social-Post-Form";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30FFA9252DBE8B7200A22807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56F7L6935Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.yokobuto.Social-Post-Form";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30FFA9272DBE8B7200A22807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56F7L6935Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.yokobuto.Social-Post-FormTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Social Post Form.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Social Post Form";
+			};
+			name = Debug;
+		};
+		30FFA9282DBE8B7200A22807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56F7L6935Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.yokobuto.Social-Post-FormTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Social Post Form.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Social Post Form";
+			};
+			name = Release;
+		};
+		30FFA92A2DBE8B7200A22807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56F7L6935Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.yokobuto.Social-Post-FormUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Social Post Form";
+			};
+			name = Debug;
+		};
+		30FFA92B2DBE8B7200A22807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56F7L6935Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.yokobuto.Social-Post-FormUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Social Post Form";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30FFA8FD2DBE8B7100A22807 /* Build configuration list for PBXProject "Social Post Form" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FFA9212DBE8B7200A22807 /* Debug */,
+				30FFA9222DBE8B7200A22807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30FFA9232DBE8B7200A22807 /* Build configuration list for PBXNativeTarget "Social Post Form" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FFA9242DBE8B7200A22807 /* Debug */,
+				30FFA9252DBE8B7200A22807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30FFA9262DBE8B7200A22807 /* Build configuration list for PBXNativeTarget "Social Post FormTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FFA9272DBE8B7200A22807 /* Debug */,
+				30FFA9282DBE8B7200A22807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30FFA9292DBE8B7200A22807 /* Build configuration list for PBXNativeTarget "Social Post FormUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FFA92A2DBE8B7200A22807 /* Debug */,
+				30FFA92B2DBE8B7200A22807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30FFA8FA2DBE8B7100A22807 /* Project object */;
+}

@@ -8,11 +8,24 @@
 import SwiftUI
 
 struct PostForm: View {
+    
+    @Environment(\.dismiss) var dismiss
+    
+    @Binding var title: String
+    @Binding var description: String
+    @Binding var postPublic: Bool
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(){
+            TextField("Title", text: $title)
+            TextField("Description", text: $description)
+            Toggle("Public", isOn: $postPublic)
+            Button("Add your post"){
+                dismiss()
+            }
+        }.padding()
+        
+        
     }
 }
 
-#Preview {
-    PostForm()
-}

@@ -7,11 +7,15 @@
 
 import SwiftUI
 
+
 @main
 struct Social_Post_FormApp: App {
+    
+    @State private var selectedImage: Image? = nil
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(selectedImage: $selectedImage)
         }
     }
 }

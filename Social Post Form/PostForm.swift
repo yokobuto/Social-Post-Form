@@ -19,6 +19,8 @@ struct PostForm: View {
     @State var selectedItem: PhotosPickerItem?
     
     @Binding var selectedImage: Image?
+    
+    @State private var accentColor = Color(.sRGB, red: 0.98, green: 0.9, blue: 0.2)
 
     var body: some View {
         VStack(){
@@ -44,6 +46,10 @@ struct PostForm: View {
             
             TextField("Title", text: $title)
             TextField("Description", text: $description)
+            
+            ColorPicker("Accent Color", selection: $accentColor)
+            
+            
             Toggle("Public", isOn: $postPublic)
             Button("Add your post"){
                 dismiss()
